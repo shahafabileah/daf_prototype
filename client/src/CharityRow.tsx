@@ -1,17 +1,24 @@
 import PropTypes from 'prop-types';
 import './CharityRow.css';
 
-function CharityRow() {
+interface CharityRowData {
+    name: string,
+    url: string,
+    score: number,
+    ein: string
+};
+
+function CharityRow(props:CharityRowData) {
   return (
     <div className="CharityRow">
         <span className="TableCell">
-            <a href="http://www.kexp.org/">Friends of Kexp</a>
+            <a href="{props.url}">{props.name}</a>
         </span>
         <span className="TableCell">
-            88
+            {props.score}
         </span>
         <span className="TableCell">
-            91-2061474
+            {props.ein}
         </span>
     </div>    
   );

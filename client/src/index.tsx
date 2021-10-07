@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CharityRow />
+    <CharityRow name="Friends of Kexp" url="http://www.kexp.org/" score={88} ein="91-2061474" />
   </React.StrictMode>,
   document.getElementById('root')
 );
