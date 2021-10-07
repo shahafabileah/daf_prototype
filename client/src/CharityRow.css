@@ -1,0 +1,7 @@
+.CharityRow {
+    padding: 40px;
+}
+
+.CharityRow .TableCell:not(:first-child) {
+    padding-left: 40px;
+}
