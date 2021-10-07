@@ -1,0 +1,23 @@
+.CharityRow.Header {
+    font-weight: bold;
+}
+
+.CharityRow {
+    padding: 15px;
+}
+
+.CharityRow > span {
+    display: inline-block;
+}
+
+.CharityRow .Name {
+    width: 200px;
+}
+
+.CharityRow .Score {
+    width: 100px;
+}
+
+.CharityRow .EIN {
+    width: 100px;
+}

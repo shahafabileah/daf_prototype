@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CharityRow from './CharityRow';
+import CharityTable from './CharityTable';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CharityRow name="Friends of Kexp" url="http://www.kexp.org/" score={88} ein="91-2061474" />
+    <CharityTable />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './CharityRow.css';
+import './CharityTableRow.css';
 
 interface CharityRowData {
     name: string,
@@ -11,13 +11,13 @@ interface CharityRowData {
 function CharityRow(props:CharityRowData) {
   return (
     <div className="CharityRow">
-        <span className="TableCell">
+        <span className="Name">
             <a href="{props.url}">{props.name}</a>
         </span>
-        <span className="TableCell">
+        <span className="Score">
             {props.score}
         </span>
-        <span className="TableCell">
+        <span className="EIN">
             {props.ein}
         </span>
     </div>    
