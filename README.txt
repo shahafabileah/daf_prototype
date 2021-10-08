@@ -40,16 +40,16 @@ Create a basic server (Node, Express, GraphQL, typescript):
         npm start
 
 Next:
-- Return an empty HTML page
-- Add a simple custom React Component
-- Query the GraphQL endpoint to get data and show it in the component
-- Replace the simple React component with one used to show a single charity's info (one search result)
-- Change GraphQL endpoint to respond with hard-coded data for a single charity
-- Show a list of results (not just one)
-- Add a search box and fetch charities that match by name (still from hard-coded list)
-- Change GraphQL to fetch from CharityNavigator
-- Cache results in Postgres
-- Search with ElasticSearch
-- Add unit tests
-- Deploy to AWS
-- Logging, Monitoring
+[x] Return an empty HTML page
+[x] Add a simple custom React Component
+[x] Replace the simple React component with one used to show a single charity's info (one search result)
+[x] Show a list of results (not just one)
+[x] Define GraphQL endpoint that returns a list of charities (hard-coded for now)
+[ ] Query that endpoint and show the data in the component
+[ ] Add a search box and fetch charities that match by name (still from hard-coded list)
+[ ] Change GraphQL to fetch from CharityNavigator
+[ ] Cache results in Postgres
+[ ] Search with ElasticSearch
+[ ] Add unit tests
+[ ] Deploy to AWS
+[ ] Logging, Monitoring
