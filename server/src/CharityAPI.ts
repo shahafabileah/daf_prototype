@@ -6,7 +6,7 @@ export default class CharityAPI {
         return new Charity('Friends of Kexp', 'http://www.kexp.org/', 88, '91-2061474');
     }
 
-    public static getCharities(name: String) {
+    public static getCharities(searchTerm: String) {
         // For now return a hard-coded list
         return [
             new Charity('Friends of Kexp', 'http://www.kexp.org/', 88, '91-2061474'),

@@ -1,7 +1,7 @@
 type Query {
   helloWorld: String!
   charity(ein: String): Charity
-  charities(name: String): [Charity]!
+  charities(searchTerm: String): [Charity]!
 }
 
 type Charity {

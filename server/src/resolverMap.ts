@@ -15,7 +15,7 @@ const resolverMap: IResolvers = {
     },
 
     charities(parent, args): Charity[] {
-      return CharityAPI.getCharities(args.name);
+      return CharityAPI.getCharities(args.searchTerm);
     }
   },
 };
