@@ -10,7 +10,7 @@ const resolverMap: IResolvers = {
       return `👋 Hello world! 👋`;
     },
 
-    charity(parent, args): Charity {
+    charity(parent, args): Charity | null {
       return CharityAPI.getCharity(args.ein);
     },
 
