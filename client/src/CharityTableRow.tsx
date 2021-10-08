@@ -12,7 +12,7 @@ function CharityRow(props:CharityRowData) {
   return (
     <div className="CharityRow">
         <span className="Name">
-            <a href="{props.url}">{props.name}</a>
+            <a href={props.url}>{props.name}</a>
         </span>
         <span className="Score">
             {props.score}
