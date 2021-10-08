@@ -1,14 +1,7 @@
-import PropTypes from 'prop-types';
 import './CharityTableRow.css';
+import CharityData from './CharityData';
 
-interface CharityRowData {
-    name: string,
-    url: string,
-    score: number,
-    ein: string
-};
-
-function CharityRow(props:CharityRowData) {
+function CharityRow(props:CharityData) {
   return (
     <div className="CharityRow">
         <span className="Name">

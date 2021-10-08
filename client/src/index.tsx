@@ -3,10 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import CharityTable from './CharityTable';
 import reportWebVitals from './reportWebVitals';
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider
+} from "@apollo/client";
+
+// TODO: Pull this from config for different environments
+const GRAPHQL_URL = 'http://localhost:3001/graphql';
+
+const apolloClient = new ApolloClient({
+  uri: GRAPHQL_URL,
+  cache: new InMemoryCache()
+});
 
 ReactDOM.render(
   <React.StrictMode>
-    <CharityTable />
+    <ApolloProvider client={apolloClient}>
+      <CharityTable />
+    </ApolloProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

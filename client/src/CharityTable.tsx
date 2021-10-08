@@ -1,14 +1,39 @@
+import { gql, useQuery } from "@apollo/client";
 import './CharityTable.css';
 import CharityTableHeader from './CharityTableHeader';
+import CharityData from './CharityData';
 import CharityTableRow from './CharityTableRow';
 
+const QUERY = gql`
+  query Query {
+    charities(name: "blah") {
+      name,
+      url,
+      score,
+      ein
+    }
+  }
+`;
+
 function CharityTable() {
+  const { loading, error, data } = useQuery(QUERY);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error :(</p>;
+
   return (
     <div className="CharityTable">
       <CharityTableHeader />
-      <CharityTableRow name="Friends of Kexp" url="http://www.kexp.org/" score={88} ein="91-2061474" />
-      <CharityTableRow name="Water.org" url="http://www.water.org/" score={95.12} ein="58-2060131" />
-      <CharityTableRow name="Food Lifeline" url="http://www.foodlifeline.org/" score={92.92} ein="91-1090450" />
+      {
+        data.charities.map((charity: CharityData) => {
+          return <CharityTableRow
+            key={charity.ein}
+            ein={charity.ein}
+            name={charity.name}
+            url={charity.url}
+            score={charity.score} />
+        })
+      }
     </div>
   );
 }
