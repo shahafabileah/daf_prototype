@@ -1,0 +1,21 @@
+.SearchBox {
+    padding: 45px;
+}
+
+.SearchBox .Prompt {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.SearchBox .TextInput {
+    width: 300px;
+    height: 30px;
+}
+
+.SearchBox .Button {
+    margin-left: 10px;
+    width: 100px;
+    height: 36px;
+    background: white;
+    border-radius: 5px;
+}

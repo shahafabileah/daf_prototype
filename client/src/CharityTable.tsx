@@ -5,8 +5,8 @@ import CharityData from './CharityData';
 import CharityTableRow from './CharityTableRow';
 
 const QUERY = gql`
-  query Query {
-    charities(name: "blah") {
+  query Query($searchTerm: String!) {
+    charities(searchTerm: $searchTerm) {
       name,
       url,
       score,
@@ -15,11 +15,20 @@ const QUERY = gql`
   }
 `;
 
-function CharityTable() {
-  const { loading, error, data } = useQuery(QUERY);
+interface CharityTableData {
+  searchTerm: string
+};
+
+export default function CharityTable(props:CharityTableData) {
+  const { loading, error, data } = useQuery(QUERY, {
+    variables: { searchTerm: props.searchTerm }
+  });
 
   if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
+  if (error) {
+    console.log(error);
+    return <p>Error :(</p>;
+  }
 
   return (
     <div className="CharityTable">
@@ -37,5 +46,3 @@ function CharityTable() {
     </div>
   );
 }
-
-export default CharityTable;

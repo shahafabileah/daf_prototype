@@ -45,8 +45,8 @@ Next:
 [x] Replace the simple React component with one used to show a single charity's info (one search result)
 [x] Show a list of results (not just one)
 [x] Define GraphQL endpoint that returns a list of charities (hard-coded for now)
-[ ] Query that endpoint and show the data in the component
-[ ] Add a search box and fetch charities that match by name (still from hard-coded list)
+[x] Query that endpoint and show the data in the component
+[x] Add a search box and fetch charities that match by name (still from hard-coded list)
 [ ] Change GraphQL to fetch from CharityNavigator
 [ ] Cache results in Postgres
 [ ] Search with ElasticSearch
