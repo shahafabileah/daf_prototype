@@ -6,7 +6,7 @@ type Query {
 
 type Charity {
   name: String!
-  url: String!
-  score: Float!
+  url: String
+  score: Float
   ein: String!
 }

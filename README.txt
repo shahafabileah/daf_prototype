@@ -47,9 +47,9 @@ Next:
 [x] Define GraphQL endpoint that returns a list of charities (hard-coded for now)
 [x] Query that endpoint and show the data in the component
 [x] Add a search box and fetch charities that match by name (still from hard-coded list)
-[ ] Change GraphQL to fetch from CharityNavigator
+[x] Change GraphQL to fetch from CharityNavigator
+[ ] Deploy to AWS
+[ ] Logging, Monitoring
 [ ] Cache results in Postgres
 [ ] Search with ElasticSearch
 [ ] Add unit tests
-[ ] Deploy to AWS
-[ ] Logging, Monitoring

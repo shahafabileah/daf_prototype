@@ -1,17 +1,31 @@
-import Charity from './Charity';
+/*
+This is a generic charity API.
 
-const CHARITIES = [
-    new Charity('Friends of Kexp', 'http://www.kexp.org/', 88, '91-2061474'),
-    new Charity('Water.org', 'http://www.water.org/', 95.12, '58-2060131'),
-    new Charity('Food Lifeline', 'http://www.foodlifeline.org/', 92.92, '91-1090450')
-];
+It defines an agnostic format/contract for charity info and gives a layer of indirection 
+that allows swapping in other charity-data providers.
+*/
+
+import Charity from './Charity';
+import CharityNavigatorAPI from './CharityNavigatorAPI';
 
 export default class CharityAPI {
-    public static getCharity(ein: string) {
-        return CHARITIES.find(charity => charity.ein === ein) || null;
+    // TODO: swap "any" with real types
+    private static packageCharity(charity:any) : Charity {
+        return new Charity(
+            charity.charityName,
+            charity.websiteURL,
+            charity.currentRating?.score,
+            charity.ein
+        );
     }
 
-    public static getCharities(searchTerm: string) {
-        return CHARITIES.filter(charity => charity.name.indexOf(searchTerm) >= 0)
+    public static async getCharity(ein: string) {
+        const result = await CharityNavigatorAPI.getCharity(ein);
+        return this.packageCharity(result);
+    }
+
+    public static async getCharities(searchTerm: string) {
+        const results = await CharityNavigatorAPI.getCharities(searchTerm);
+        return results.map((result:any) => this.packageCharity(result));
     }
 }

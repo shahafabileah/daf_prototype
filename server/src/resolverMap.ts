@@ -10,12 +10,12 @@ const resolverMap: IResolvers = {
       return `👋 Hello world! 👋`;
     },
 
-    charity(parent, args): Charity | null {
+    charity(parent, args): Promise<Charity | null> {
       return CharityAPI.getCharity(args.ein);
     },
 
-    charities(parent, args): Charity[] {
-      return CharityAPI.getCharities(args.searchTerm);
+    charities(parent, args): Promise<Charity[]> {
+      return CharityAPI.getCharities(args.searchTerm)
     }
   },
 };
