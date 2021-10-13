@@ -63,8 +63,6 @@ export default class CharityNavigatorAPI {
 
         try {
             const response = await got(url.href);
-            console.log("=====\n");
-            console.log(response.body);
             return JSON.parse(response.body);
         } catch (err:any) {
             CharityNavigatorAPI.logError(err);
