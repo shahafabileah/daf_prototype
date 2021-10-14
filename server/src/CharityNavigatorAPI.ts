@@ -46,6 +46,8 @@ export default class CharityNavigatorAPI {
     public static async getCharities(searchTerm: string) {
         const url = CharityNavigatorAPI.getBaseURL("/Organizations");
         url.searchParams.append("search", searchTerm);
+        url.searchParams.append("searchType", "NAME_ONLY");
+        url.searchParams.append("sort", "RATING:DESC");
         url.searchParams.append("pageSize", "3");
 
         try{
