@@ -6,6 +6,8 @@ import compression from 'compression';
 import cors from 'cors';
 import schema from './schema';
 
+const PORT = parseInt(process.env.SERVER_PORT || '8080');
+
 const app = express();
 const server = new ApolloServer({
   schema,
@@ -18,6 +20,9 @@ app.use(corstOpts);
 
 app.use(compression());
 
+// AWS Beanstalk's load balancer by default does a 15-second health check on '/'.
+app.get("/", (req, res) => res.send("OK"));
+
 // You have to wait for the server to start before applying middleware.
 // But you can't directly call await at the top level (only inside async functions), so we wrap everything.
 // https://stackoverflow.com/questions/68614523/error-you-must-await-server-start-before-calling-server-applymiddleware
@@ -27,9 +32,8 @@ app.use(compression());
     server.applyMiddleware({ app, path: '/graphql' });
 
     const httpServer = createServer(app);
-    const port = 3001;
     httpServer.listen(
-      { port },
-      (): void => console.log(`\n🚀      GraphQL is now running on http://localhost:${port}/graphql`)
+      { port: PORT },
+      (): void => console.log(`\n🚀      GraphQL is now running on http://localhost:${PORT}/graphql`)
     );    
 })();
