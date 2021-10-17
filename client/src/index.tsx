@@ -7,7 +7,7 @@ import './index.css';
 import SearchCharities from './SearchCharities';
 
 // TODO: Pull this from config for different environments
-const GRAPHQL_URL = 'http://localhost:3001/graphql';
+const GRAPHQL_URL = process.env.REACT_APP_GRAPHQL_URL || 'http://localhost:8080/graphql';
 
 const apolloClient = new ApolloClient({
   uri: GRAPHQL_URL,
