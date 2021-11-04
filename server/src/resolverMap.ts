@@ -6,10 +6,6 @@ import CharityAPI from './CharityAPI';
 
 const resolverMap: IResolvers = {
   Query: {
-    helloWorld(parent, args): string {
-      return `👋 Hello world! 👋`;
-    },
-
     charity(parent, args): Promise<Charity | null> {
       return CharityAPI.getCharity(args.ein);
     },
