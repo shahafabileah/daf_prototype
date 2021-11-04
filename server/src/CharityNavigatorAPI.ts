@@ -25,6 +25,9 @@ https://charity.3scale.net/docs/data-api/changelog
 // I picked one of the other popular ones:
 // https://www.npmjs.com/package/got
 import got from 'got';
+import fs from 'fs';
+
+const USE_MOCK_DATA = true;
 
 const BASE_URL = 'https://api.data.charitynavigator.org/v2';
 const APP_ID = process.env.CHARITY_NAVIGATOR_APP_ID || '';
@@ -44,6 +47,11 @@ export default class CharityNavigatorAPI {
     }
 
     public static async getCharities(searchTerm: string) {
+        if (USE_MOCK_DATA) {
+            const response = fs.readFileSync('./src/CharityNavigatorAPI.Sample.getCharities.json', 'utf8');
+            return JSON.parse(response);
+        }
+
         const url = CharityNavigatorAPI.getBaseURL("/Organizations");
         url.searchParams.append("search", searchTerm);
         url.searchParams.append("searchType", "NAME_ONLY");
@@ -61,6 +69,11 @@ export default class CharityNavigatorAPI {
     }
 
     public static async getCharity(ein: string) {
+        if (USE_MOCK_DATA) {
+            const response = fs.readFileSync('./src/CharityNavigatorAPI.Sample.getCharity.json', 'utf8');
+            return JSON.parse(response);
+        }
+
         const url = CharityNavigatorAPI.getBaseURL(`/Organizations/${ein}`);
 
         try {

@@ -1,0 +1,303 @@
+[
+  {
+    "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=8391&utm_source=DataAPI&utm_content=9af5afa3",
+    "mission": "Founded in 1998, Trees, Water & People (TWP) is dedicated to helping communities protect, conserve, and manage the natural resources upon which their long-term well-being depends. This mission is guided by two core beliefs:<br>- That natural resources are best protected when local people play an active role in their care and management; and <br>- Preserving local trees, wetlands, and watersheds is essential for the ongoing social, economic, and environmental health of communities everywhere.",
+    "websiteURL": "http://www.treeswaterpeople.org/",
+    "tagLine": "Helping people and the planet",
+    "charityName": "Trees, Water & People",
+    "ein": "841462044",
+    "orgID": 8391,
+    "currentRating": {
+      "score": 99.02,
+      "ratingID": 155472,
+      "publicationDate": "2021-05-01T04:00:00.000Z",
+      "ratingImage": {
+        "small": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4starsb.png",
+        "large": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4stars.png"
+      },
+      "rating": 4,
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/841462044/Ratings/155472"
+        }
+      },
+      "financialRating": {
+        "score": 98.62,
+        "rating": 4
+      },
+      "accountabilityRating": {
+        "score": 100,
+        "rating": 4
+      }
+    },
+    "category": {
+      "categoryName": "Environment",
+      "categoryID": 4,
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=4&utm_source=DataAPI&utm_content=9af5afa3",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/categories/education.png?utm_source=DataAPI&utm_content=9af5afa3"
+    },
+    "cause": {
+      "causeID": 11,
+      "causeName": "Environmental Protection and Conservation",
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.results&cgid=4&cuid=11&utm_source=DataAPI&utm_content=9af5afa3",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/causes/small/environmental_protection.gif?utm_source=DataAPI&utm_content=9af5afa3"
+    },
+    "irsClassification": {
+      "deductibility": "Contributions are deductible",
+      "subsection": "501(c)(3)",
+      "assetAmount": 1435985,
+      "nteeType": "Environmental Quality, Protection and Beautification ",
+      "incomeAmount": 1570462,
+      "nteeSuffix": null,
+      "filingRequirement": "990 (all other) or 990EZ return",
+      "classification": "Charitable Organization",
+      "latest990": "March, 2021",
+      "rulingDate": "October, 1998",
+      "nteeCode": "C30",
+      "groupName": null,
+      "affiliation": "Independent - the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+      "deductibilityCode": "1",
+      "foundationStatus": "Organization which receives a substantial part of its support from a governmental unit or the general public   170(b)(1)(A)(vi)",
+      "nteeClassification": "Natural Resources Conservation and Protection",
+      "accountingPeriod": "March",
+      "exemptOrgStatus": "Unconditional Exemption",
+      "deductibilityDetail": null,
+      "exemptOrgStatusCode": "01",
+      "nteeLetter": "C"
+    },
+    "mailingAddress": {
+      "country": null,
+      "stateOrProvince": "CO",
+      "city": "Fort Collins",
+      "postalCode": "80524",
+      "streetAddress1": "633 Remington Street",
+      "streetAddress2": null
+    },
+    "advisories": {
+      "severity": null,
+      "active": {
+        "_rapid_links": {
+          "related": {
+            "href": "https://api.data.charitynavigator.org/v2/Organizations/841462044/Advisories?status=ACTIVE"
+          }
+        }
+      }
+    },
+    "organization": {
+      "charityName": "Trees, Water & People",
+      "ein": "841462044",
+      "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=8391&utm_source=DataAPI&utm_content=9af5afa3",
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/841462044"
+        }
+      }
+    }
+  },
+  {
+    "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=10709&utm_source=DataAPI&utm_content=9af5afa3",
+    "mission": "Water Mission is a nonprofit Christian engineering organization that designs, builds, and implements safe water, sanitation, and hygiene (WASH) solutions for people in developing countries and disaster areas. Since 2001, Water Mission has used innovative technology and engineering expertise to provide access to safe water for nearly 7 million people in 57 countries. Water Mission has over 400 staff members working in its headquarters and around the world in permanent country programs located in Africa, Asia, North, South and Central America, and the Caribbean. Notably, Charity Navigator has awarded Water Mission its top four-star rating 14 years in a row, a distinction shared by less than 1% of the charities rated by the organization. To learn more, visit watermission.org.",
+    "websiteURL": "http://www.watermission.org/",
+    "tagLine": "Water Mission is a Christian engineering nonprofit that builds safe water, sanitation, and hygiene solutions.",
+    "charityName": "Water Mission",
+    "ein": "571116978",
+    "orgID": 10709,
+    "currentRating": {
+      "score": 98.23,
+      "ratingID": 154734,
+      "publicationDate": "2020-10-01T04:00:00.000Z",
+      "ratingImage": {
+        "small": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4starsb.png",
+        "large": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4stars.png"
+      },
+      "rating": 4,
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/571116978/Ratings/154734"
+        }
+      },
+      "financialRating": {
+        "score": 97.5,
+        "rating": 4
+      },
+      "accountabilityRating": {
+        "score": 100,
+        "rating": 4
+      }
+    },
+    "category": {
+      "categoryName": "International",
+      "categoryID": 7,
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=7&utm_source=DataAPI&utm_content=9af5afa3",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/categories/human.png?utm_source=DataAPI&utm_content=9af5afa3"
+    },
+    "cause": {
+      "causeID": 20,
+      "causeName": "Development and Relief Services",
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.results&cgid=7&cuid=20&utm_source=DataAPI&utm_content=9af5afa3",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/causes/small/development_relief.gif?utm_source=DataAPI&utm_content=9af5afa3"
+    },
+    "irsClassification": {
+      "deductibility": "Contributions are deductible",
+      "subsection": "501(c)(3)",
+      "assetAmount": 26275899,
+      "nteeType": "International, Foreign Affairs and National Security",
+      "incomeAmount": 38776614,
+      "nteeSuffix": null,
+      "filingRequirement": "990 (all other) or 990EZ return",
+      "classification": "Charitable Organization",
+      "latest990": "September, 2020",
+      "rulingDate": "August, 2001",
+      "nteeCode": "Q30",
+      "groupName": null,
+      "affiliation": "Independent - the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+      "deductibilityCode": "1",
+      "foundationStatus": "Organization which receives a substantial part of its support from a governmental unit or the general public   170(b)(1)(A)(vi)",
+      "nteeClassification": "International Development, Relief Services",
+      "accountingPeriod": "September",
+      "exemptOrgStatus": "Unconditional Exemption",
+      "deductibilityDetail": null,
+      "exemptOrgStatusCode": "01",
+      "nteeLetter": "Q"
+    },
+    "mailingAddress": {
+      "country": null,
+      "stateOrProvince": "SC",
+      "city": "North Charleston",
+      "postalCode": "29405",
+      "streetAddress1": "1150 Molly Greene Way",
+      "streetAddress2": "Building 1605"
+    },
+    "donationAddress": {
+      "country": null,
+      "stateOrProvince": "SC",
+      "city": "North Charleston",
+      "postalCode": "29415",
+      "streetAddress1": "P.O. Box 71489",
+      "streetAddress2": null
+    },
+    "advisories": {
+      "severity": null,
+      "active": {
+        "_rapid_links": {
+          "related": {
+            "href": "https://api.data.charitynavigator.org/v2/Organizations/571116978/Advisories?status=ACTIVE"
+          }
+        }
+      }
+    },
+    "organization": {
+      "charityName": "Water Mission",
+      "ein": "571116978",
+      "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=10709&utm_source=DataAPI&utm_content=9af5afa3",
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/571116978"
+        }
+      }
+    }
+  },
+  {
+    "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=18778&utm_source=DataAPI&utm_content=9af5afa3",
+    "mission": "The Water Project unlocks human potential by providing reliable water projects to communities in sub-Saharan Africa who suffer needlessly from a lack of access to clean water and proper sanitation. For ten years, we have been helping communities gain access to clean, safe water by providing training, expertise and financial support for water project construction through our staff and implementing partners. We are committed to bringing people together to solve the problem of finding clean water. We invest in local teams who provide clean water and unlock potential in the villages where people live.",
+    "websiteURL": "https://thewaterproject.org/",
+    "tagLine": "Helping end the water crisis and restoring hope",
+    "charityName": "The Water Project",
+    "ein": "261455510",
+    "orgID": 18778,
+    "currentRating": {
+      "score": 97.34,
+      "ratingID": 159531,
+      "publicationDate": "2021-05-01T04:00:00.000Z",
+      "ratingImage": {
+        "small": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4starsb.png",
+        "large": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4stars.png"
+      },
+      "rating": 4,
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/261455510/Ratings/159531"
+        }
+      },
+      "financialRating": {
+        "score": 96.24,
+        "rating": 4
+      },
+      "accountabilityRating": {
+        "score": 100,
+        "rating": 4
+      }
+    },
+    "category": {
+      "categoryName": "International",
+      "categoryID": 7,
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=7&utm_source=DataAPI&utm_content=9af5afa3",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/categories/human.png?utm_source=DataAPI&utm_content=9af5afa3"
+    },
+    "cause": {
+      "causeID": 20,
+      "causeName": "Development and Relief Services",
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.results&cgid=7&cuid=20&utm_source=DataAPI&utm_content=9af5afa3",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/causes/small/development_relief.gif?utm_source=DataAPI&utm_content=9af5afa3"
+    },
+    "irsClassification": {
+      "deductibility": "Contributions are deductible",
+      "subsection": "501(c)(3)",
+      "assetAmount": 5877751,
+      "nteeType": "International, Foreign Affairs and National Security",
+      "incomeAmount": 5424905,
+      "nteeSuffix": null,
+      "filingRequirement": "990 (all other) or 990EZ return",
+      "classification": "Charitable Organization",
+      "latest990": "December, 2020",
+      "rulingDate": "May, 2008",
+      "nteeCode": "Q33",
+      "groupName": null,
+      "affiliation": "Independent - the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+      "deductibilityCode": "1",
+      "foundationStatus": "Organization which receives a substantial part of its support from a governmental unit or the general public   170(b)(1)(A)(vi)",
+      "nteeClassification": "International Relief",
+      "accountingPeriod": "December",
+      "exemptOrgStatus": "Unconditional Exemption",
+      "deductibilityDetail": null,
+      "exemptOrgStatusCode": "01",
+      "nteeLetter": "Q"
+    },
+    "mailingAddress": {
+      "country": null,
+      "stateOrProvince": "NH",
+      "city": "Concord",
+      "postalCode": "03301",
+      "streetAddress1": "17 Depot Street",
+      "streetAddress2": "Second Floor"
+    },
+    "donationAddress": {
+      "country": null,
+      "stateOrProvince": "NH",
+      "city": "Concord",
+      "postalCode": "03302",
+      "streetAddress1": "P.O. Box 3353",
+      "streetAddress2": null
+    },
+    "advisories": {
+      "severity": null,
+      "active": {
+        "_rapid_links": {
+          "related": {
+            "href": "https://api.data.charitynavigator.org/v2/Organizations/261455510/Advisories?status=ACTIVE"
+          }
+        }
+      }
+    },
+    "organization": {
+      "charityName": "The Water Project",
+      "ein": "261455510",
+      "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=18778&utm_source=DataAPI&utm_content=9af5afa3",
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/261455510"
+        }
+      }
+    }
+  }
+]

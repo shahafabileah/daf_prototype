@@ -1,0 +1,71 @@
+{
+  "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.profile&ein=912061474&utm_source=DataAPI&utm_content=9af5afa3",
+  "currentCEO": {
+    "name": null,
+    "title": null
+  },
+  "tagLine": null,
+  "charityName": "Friends of Kexp",
+  "ein": "912061474",
+  "currentBoardChair": {
+    "name": null,
+    "title": null
+  },
+  "orgID": null,
+  "mission": null,
+  "phoneNumber": null,
+  "websiteURL": null,
+  "generalEmail": null,
+  "activeAdvisories": {
+    "_rapid_links": {
+      "related": {
+        "href": "https://api.data.charitynavigator.org/v2/Organizations/912061474/Advisories?status=ACTIVE"
+      }
+    }
+  },
+  "removedAdvisories": {
+    "_rapid_links": {
+      "related": {
+        "href": "https://api.data.charitynavigator.org/v2/Organizations/912061474/Advisories?status=REMOVED"
+      }
+    }
+  },
+  "ratingHistory": {
+    "_rapid_links": {
+      "related": {
+        "href": "https://api.data.charitynavigator.org/v2/Organizations/912061474/Ratings"
+      }
+    }
+  },
+  "irsClassification": {
+    "deductibility": "Contributions are deductible",
+    "subsection": "501(c)(3)",
+    "assetAmount": 27675072,
+    "nteeType": "Youth Development",
+    "incomeAmount": 13726494,
+    "nteeSuffix": null,
+    "filingRequirement": "990 (all other) or 990EZ return",
+    "classification": "Charitable Organization",
+    "latest990": "December, 2020",
+    "rulingDate": "December, 2000",
+    "nteeCode": "O99",
+    "groupName": null,
+    "affiliation": "Independent - the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+    "deductibilityCode": "1",
+    "foundationStatus": "Organization which receives a substantial part of its support from a governmental unit or the general public   170(b)(1)(A)(vi)",
+    "nteeClassification": "Youth Development N.E.C.",
+    "accountingPeriod": "December",
+    "exemptOrgStatus": "Unconditional Exemption",
+    "deductibilityDetail": null,
+    "exemptOrgStatusCode": "01",
+    "nteeLetter": "O"
+  },
+  "mailingAddress": {
+    "country": null,
+    "stateOrProvince": "WA",
+    "city": "SEATTLE",
+    "postalCode": "98109-4721",
+    "streetAddress1": "472 1ST AVE N",
+    "streetAddress2": null
+  }
+}
